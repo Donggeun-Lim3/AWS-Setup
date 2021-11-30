@@ -1,17 +1,3 @@
-" Non-compatible with Vi
-set nocompatible
-
-" Sets up Vungle and enables all plugins
-" :PluginInstall after all plugin installations/deletions
-filetype off
-packloadall
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'preservim/nerdtree'
 
 call vundle#end()
 filetype plugin indent on
@@ -43,11 +29,6 @@ inoremap (  ()<ESC>hli
 inoremap [  []<ESC>hli
 inoremap {  {}<ESC>hli
 set showmatch
-
-" Visual modifications
-set splitbelow
-autocmd VimEnter * NERDTree 
-let g:NERDTreeWinPos = "right"
 
 " Airline Plugin
 " Tabline
