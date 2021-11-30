@@ -54,9 +54,5 @@ let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
 
-"Swift Syntax Highlighting
-map <C-I> :pyf ~/.vim/plugin/swift-format.py
-imap <C-I> <c-o>:pyf ~/.vim/plugin/swift-format.py
-
 " Commands
 :command NERD NERDTreeToggle
